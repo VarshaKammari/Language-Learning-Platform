@@ -1,0 +1,139 @@
+.c-body{
+    background: linear-gradient(135deg, rgb(0, 0, 70), rgb(28, 181, 224));
+    height: auto;
+}
+.cbx
+{
+    width: 650px;
+    height: 725px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px; 
+    background-color: #fff;
+    margin-bottom: 5%;
+}
+
+.clcnr{
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.cletter{
+    margin: 15px 35px 27px 32px;
+    width: 50px;
+    height: 50px;
+    /* padding: 10px; */
+    font-weight: bolder;
+    font-size: 70px;
+    /* color: white; */
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.cbn{
+    margin: 30px 35px 30px 38px;
+    width: 80px;
+    height: 25px;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.c-content h1{
+    color: white;
+    font-weight: bolder;
+}
+
+.c-top{
+    margin-top: 5%;
+}
+
+#cl1{
+    background-color: #f26552;
+}
+#cl2{
+    background-color: #f252c5;
+}
+#cl3{
+    background-color: #9a52f2;
+}
+#cl4{
+    background-color: #528ff2;
+}
+#cl5{
+    background-color: #f25282;
+}
+
+@media (max-width:1200px){
+    .c-body{
+        width: 100%;
+    }
+}
+@media (max-width:992px){
+    .c-body{
+        width:100%;
+    }
+    .cbx{
+        width: 600px;
+    }
+}
+@media (max-width:768px){
+    .c-body{
+        width: 100%;
+    }
+    .cbx{
+        width: 450px;
+        height: 550px;
+    }
+    .clcnr{
+        width: 150px;
+        height: 150px;
+        margin: 25px;
+        padding: 15px;
+        text-align: center;
+    }
+    .cletter{
+        font-size: 60px;
+        margin: 10px 30px 15px 25px;
+    }
+    .cbn{
+        width: 75px;
+        margin: 25px 30px 30px 20px;
+    }
+}
+@media (max-width:576px) {
+    .c-body{
+        width: 100%;
+    }
+    .cbx{
+        width: 300px;
+        height: 425px;
+    }
+    .clcnr{
+        width: 100px;
+        height: 100px;
+        margin: 15px;
+        padding: 5px;
+        text-align: center;
+    }
+    .cletter{
+        font-size: 40px;
+        margin: 0px 20px 10px 15px;
+    }
+    .cbn{
+        width: 55px;
+        height: 24px;
+        padding: 1%;
+        margin: 5px 30px 20px 15px;
+    }
+}

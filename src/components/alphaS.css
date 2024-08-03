@@ -1,0 +1,90 @@
+.vs-cnr{
+    background: linear-gradient(135deg, rgb(0, 0, 70), rgb(28, 181, 224));
+    height: 100vh;
+}
+
+.vs-cnr h1{
+    /* color: black; */
+    font-weight: bolder;
+}
+
+.vs-main{
+    width: 1200px;
+    height: 400px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 10%;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+}
+.vs-bx{
+    height: 50%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+
+
+.vs-b{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px 10px;
+    
+}
+
+
+.vs-lt{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.vs-bn{
+    margin-left: 33%;
+    height: 35px;
+    width: 50px;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    margin-top: auto;
+}
+
+.vs-nbn{
+    margin-left: 85%;
+    width: 80px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+#vs-l1{
+    background-color: #e08a5b;
+}
+#vs-l9{
+    background-color: #6ee05b;
+}
+#vs-l2{
+    background-color: #5bb1e0;
+}
+#vs-l10{
+    background-color: #cc5be0;
+}
+#vs-l3{
+    background-color: #e05c97;
+}
+#vs-l11{
+    background-color: #7d5ce0;
+}
+#vs-l4{
+    background-color:#d9e05c;
+}
+#vs-l12{
+    background-color:#5ce0a5 ;
+}

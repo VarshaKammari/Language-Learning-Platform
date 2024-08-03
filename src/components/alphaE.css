@@ -1,0 +1,141 @@
+.ae-body{
+    background: linear-gradient(135deg, rgb(0, 0, 70), rgb(28, 181, 224));
+    height: 150vh;
+}
+
+.ae-body p{
+    color: white;
+    text-align: center;
+}
+.ae-ot{
+    height: 750px;
+    width: 800px;
+    border: 1px solid white;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 15px;
+}
+
+
+.ae-slice{
+    height: 150px;
+    width: 750px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.ae-bt{
+    height: 120px;
+    width: 140px;
+    margin: 0 20px;
+    font-size: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 22px;
+    font-weight:500;
+}
+
+.ae-mid{
+    height: 600px;
+}
+
+#ae-last{
+    height: 500px;
+}
+
+.aes-bn{
+    margin: auto 20% auto 80%;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.ae-s{
+    color: white;
+}
+
+.ae-top{
+    margin-top: 2%;
+}
+
+.l11
+{
+    background-color: #2FCFE3;
+}
+.l12{
+    background-color: #CFE32F;
+}
+.l13{
+    background-color: #E32FCF;
+}
+
+.l21{
+    background-color: #7798fa;
+}
+
+.l22{
+    background-color:#a9fd8d ;
+}
+
+.l23{
+    background-color: #f98da8;
+}
+
+.l31{
+    background-color: #D857E0;
+}
+
+.l32{
+    background-color: #E0D857;
+}
+
+.l33{
+    background-color: #57E0D8;
+}
+
+.l41{
+    background-color: #f98ba6;
+}
+
+.l42{
+    background-color: #aff996;
+}
+
+.l43{
+    background-color: #809cf1 ;
+}
+
+.oicontainer{
+    border: 1px solid white;
+    margin: auto;
+    width: 900px;
+    height: 625px; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 2%;
+} 
+.olet{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: white;
+}
+.olt{
+    margin: 8px;
+    font-size: larger;
+    color: white;
+} 
+

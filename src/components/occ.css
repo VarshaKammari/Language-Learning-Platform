@@ -1,0 +1,83 @@
+.oc-cnr {
+    background: linear-gradient(135deg, rgb(0, 0, 70), rgb(28, 181, 224));
+    width: 100vw;
+    height: auto;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.oc-cnr h1 {
+    font-weight: bolder;
+    padding-bottom: 0;
+}
+
+.oc-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+
+.oc-bx {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.oc-b {
+    
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    /* position: relative; */
+}
+
+.oc-b img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.oc-b p {
+    color: white;
+    margin: -25px;
+}
+
+.oc-nbn {
+    display: inline-block;
+    margin: 40px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: Black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.oc-nbn:hover {
+    background-color: black;
+    color: white;
+}
+
+.oc-bn{
+    border:0;
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    z-index: 100;
+    transform: translate(95px, -50px);
+}

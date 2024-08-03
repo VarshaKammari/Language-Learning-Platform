@@ -1,0 +1,160 @@
+.cs-cnr{
+    background: linear-gradient(135deg, rgb(0, 0, 70), rgb(28, 181, 224));
+    width: 100vw;
+    height: auto;
+    padding: 1px;
+}
+
+.cs-cnr h1{
+    font-weight: bolder;
+    padding-bottom: 0;
+}
+
+.cs-main{
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+.cs-bx{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.cs-b{
+    border: 1px solid white;
+    margin: 3%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+}
+.cs-lt{
+    margin: 15px 10px 10px 10px;
+}
+.cs-bn{
+    margin: 10px 0px 10px 20px;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+   font-size: 15px;
+    width: 60px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+
+.cs-nbn{
+    width: 90px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 400;
+    font-size: large;
+    margin: 1% 0px 2% 47%;
+}
+
+.cs-l1{
+    background-color: #9BEB68;
+}
+.cs-l2{
+    background-color: #EB7768;
+}
+.cs-l3{
+    background-color: #D75CD8;
+}
+.cs-l4{
+    background-color: #B868EB;
+}
+.cs-l5{
+    background-color: #68DCEB;
+}
+.cs-l6{
+    background-color: #759FCF;
+}
+.cs-l7{
+    background-color: #75CF77;
+}
+.cs-l8{
+    background-color: #d6e265;
+}
+.cs-l9{
+    background-color: #CFA475;
+}
+.cs-l10{
+    background-color: #CF75CC;
+}
+
+@media (max-width: 1200px){
+    .cs-main{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+/* Breakpoint for large devices (desktops, 992px and up) */
+@media (max-width: 992px){
+    .cs-main{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+/* Breakpoint for medium devices (tablets, 768px and up) */
+@media (max-width: 768px){
+    .cs-main{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    /* .cs-bx{
+        flex-direction: column;
+    } */
+    .cs-b{
+        width: 100px;
+        height: 90px;
+        font-size: 20px;
+    }
+    .cs-bn{
+        margin: auto;
+    }
+    .cs-nbn{
+        margin: 1% 0 2% 40%;
+    }
+}
+
+/* Breakpoint for small devices (phones, 576px and up) */
+@media (max-width: 576px){
+    .cs-cnr{
+        width: 100%;
+        margin: 0;
+    }
+    .cs-main{
+        max-width: 100%;
+        padding: 0 5px;
+    }
+    .cs-b{
+        width: 80px;
+        height: 85px;
+        font-size: 18px;
+    }
+    .cs-bn{
+        margin: auto;
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        padding: 0;
+    }
+    .cs-lt{
+        height: 30px;
+        margin: 10px auto;
+        width: 30px;
+
+    }
+    .cs-nbn{
+        margin: 1% 0 2% 38%;
+    }
+}
